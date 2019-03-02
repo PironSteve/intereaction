@@ -1,0 +1,23 @@
+body {
+  background-image: url(./background.jpg);
+}
+nav {
+  margin-top: 50px;
+}
+.article {
+  background-color: darkgrey;
+  margin: 10px;
+}
+img {
+  margin: 10px;
+}
+.nav {
+  float: right;
+}
+.col-md-4 {
+  margin: 0 auto;
+  top: 40px;
+}
+.logo {
+  width: 150px;
+}
