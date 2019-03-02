@@ -1,8 +1,26 @@
 body {
   background-image: url(../img/background.jpg);
+  background-size : 100%;
+  border-top: 10px solid #150042;
 }
+
 nav {
   margin-top: 50px;
+}
+h3{
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    font-family: 'Titillium Web', sans-serif;
+}
+input {
+
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+.form{
+  padding : 10px;
 }
 .article {
   background-color: darkgrey;
@@ -17,7 +35,49 @@ img {
 .col-md-4 {
   margin: 0 auto;
   top: 40px;
+  width: 433px;
+  height: 400px;
+  background: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  top: 50%;
+  box-shadow: 2px 0 0 2px rgba(208, 205, 252, 0.37);
 }
 .logo {
   width: 150px;
+}
+
+.btn.btn-primary {
+
+
+height: 41px;
+left: 402px;
+top: 616px;
+background: linear-gradient(0deg, rgba(208, 205, 252, 0.37), rgba(208, 205, 252, 0.37)), rgba(208, 205, 252, 0.37);
+border-radius: 30px;
+border : none;
+color : black;
+font-family: 'Titillium Web', sans-serif;
+
+}
+.btn.btn-primary:hover {
+  background-color: #150042;
+  font-family: 'Titillium Web', sans-serif;
+
+}
+
+.form-group {
+  top: 50%;
+
+}
+
+.btndl{
+  height: 41px;
+  left: 402px;
+  top: 616px;
+  background: linear-gradient(0deg, rgba(208, 205, 252, 0.37), rgba(208, 205, 252, 0.37)), rgba(208, 205, 252, 0.37);
+  border-radius: 30px;
+  border : none;
+  color : black;
+  font-family: 'Titillium Web', sans-serif;
 }
